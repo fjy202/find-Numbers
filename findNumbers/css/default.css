@@ -1,5 +1,12 @@
 ﻿body {
-  /* 取消此评论以启用滚动和缩放
-  触摸操作: 操作;
-  */
+    touch-action:manipulation;
+    background-image: url(/images/background.jpg);
+}
+.number {
+    position: absolute;
+    transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(Rotation=0.50);
 }
